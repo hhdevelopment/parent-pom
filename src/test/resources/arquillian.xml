@@ -4,7 +4,7 @@
 	<engine>
 		<property name="deploymentExportPath">target/arquillian</property>
 	</engine>
-	<container qualifier="glassfish-embedded" default="true">
+	<container qualifier="glassfish" default="true">
 		<configuration>
 			<property name="bindHttpPort">8282</property>			
 		</configuration>
