@@ -104,6 +104,9 @@
 	<profiles>
 		<profile>
 			<id>arquillian-glassfish-embedded</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
 			<dependencies>
 				<dependency>
 					<groupId>org.jboss.arquillian.container</groupId>
@@ -131,9 +134,6 @@
 		</profile>
 		<profile>
 			<id>arquillian-jbossas-managed</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
 			<dependencies>
 				<dependency>
 					<groupId>org.jboss.as</groupId>
@@ -147,12 +147,6 @@
 					<version>3.0.2.Final</version>
 					<type>pom</type>
 					<scope>provided</scope>
-					<exclusions>
-						<exclusion>
-							<groupId>xalan</groupId>
-							<artifactId>xalan</artifactId>
-						</exclusion>
-					</exclusions>
 				</dependency>
 			</dependencies>
 			<build>
