@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.hhdev</groupId>
 	<artifactId>parent-pom</artifactId>
-	<version>1.0.1</version>
+	<version>1.0-SNAPTSHOT</version>
 	<packaging>pom</packaging>
 	<name>parent-pom</name>
 	<properties>
@@ -121,16 +121,6 @@
 					<scope>test</scope>
 				</dependency>
 			</dependencies>
-			<build>
-				<testResources>
-					<testResource>
-						<directory>src/test/resources</directory>
-					</testResource>
-					<testResource>
-						<directory>src/test/resources-glassfish-embedded</directory>
-					</testResource>
-				</testResources>
-			</build>
 		</profile>
 	</profiles>
 
