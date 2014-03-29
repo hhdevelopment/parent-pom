@@ -10,17 +10,23 @@
 		<endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	<scm>
+		<connection>https://github.com/hhfrancois/fr-hhdev.git</connection>
+	</scm>
 	<dependencies>
+		<!-- API  de log ne spécifie que les interface -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<version>1.7.2</version>
+			<scope>compile</scope><!-- compile veut dire compile et runtime -->
 		</dependency>
+		<!-- API pour les Tests unitaires -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.10</version>
-			<scope>test</scope>
+			<scope>test</scope><!-- uniquement pour les tests -->
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.arquillian.junit</groupId>
@@ -43,7 +49,7 @@
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
 			<version>6.0</version>
-			<scope>provided</scope>
+			<scope>provided</scope><!-- uniqument pour la compile, déjà integrer sur l'environement cible (serveur) -->
 		</dependency>
 		<dependency>
 			<groupId>org.osgi</groupId>
