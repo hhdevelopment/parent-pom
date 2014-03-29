@@ -11,7 +11,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<scm>
-		<connection>https://github.com/hhfrancois/fr-hhdev.git</connection>
+		<url>https://github.com/hhfrancois/fr-hhdev.git</url>
 	</scm>
 	<dependencies>
 		<!-- API  de log ne spécifie que les interface -->
