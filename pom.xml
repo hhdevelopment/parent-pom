@@ -12,8 +12,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<scm>
-		<connection>scm:git:ssh//git@github.com:${organizations}/${project.artifactId}.git</connection>
-		<developerConnection>scm:git:ssh//git@github.com:${organizations}/${project.artifactId}.git</developerConnection>
+		<connection>scm:git:ssh//git@github.com:hhdevelopement/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:ssh//git@github.com:hhdevelopement/${project.artifactId}.git</developerConnection>
 	</scm>
 	<dependencies>
 		<!-- API  de log ne spécifie que les interface -->
