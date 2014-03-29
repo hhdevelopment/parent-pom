@@ -12,6 +12,7 @@
 	</properties>
 	<scm>
 		<connection>scm:git:ssh//git@github.com:hhfrancois/fr-hhdev.git</connection>
+		<developerConnection>scm:git:ssh//git@github.com:hhfrancois/fr-hhdev.git</developerConnection>
 		<url>https://github.com/hhfrancois/fr-hhdev.git</url>
 	</scm>
 	<dependencies>
