@@ -42,6 +42,7 @@
 			<version>3.1.2.2</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- Toutes les api et classes jee -->
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
