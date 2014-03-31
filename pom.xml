@@ -49,7 +49,6 @@
 			<version>6.0</version>
 			<scope>provided</scope><!-- uniqument pour la compile, déjà integrer sur l'environement cible (serveur) -->
 		</dependency>
-		<!-- Pourquoi ? a tester sans -->
 		<dependency>
 			<groupId>org.osgi</groupId>
 			<artifactId>org.osgi.core</artifactId>
