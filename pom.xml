@@ -11,7 +11,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<scm>
-		<developerConnection>scm:git:git://github.com/hhdevelopment/parent-pom.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/hhdevelopment/parent-pom.git</developerConnection>
 	</scm>
 	<dependencies>
 		<!-- API  de log ne spécifie que les interface -->
