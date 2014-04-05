@@ -12,6 +12,7 @@
 	</properties>
 	<scm>
 		<developerConnection>scm:git:https://github.com/hhdevelopment/${project.artifactId}.git</developerConnection>
+		<tag>master</tag>
 	</scm>
 	<distributionManagement>
 		<repository>
