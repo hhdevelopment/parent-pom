@@ -10,6 +10,9 @@
 		<endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	<scm>
+		<developerConnection>scm:git:https://github.com/hhdevelopment/parent-pom.git</developerConnection>
+	</scm>
 	<dependencies>
 		<!-- API  de log ne spécifie que les interface -->
 		<dependency>
