@@ -13,6 +13,18 @@
 	<scm>
 		<developerConnection>scm:git:https://github.com/hhdevelopment/${project.artifactId}.git</developerConnection>
 	</scm>
+	<distributionManagement>
+		<repository>
+	        	<id>artirel</id>
+	        	<name>artifactory-releases</name>
+	        	<url>http://37.187.237.177:8081/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>artisnap</id>
+			<name>artifactory-snapshots</name>
+			<url>http://37.187.237.177:8081/artifactory/libs-snapshots-local/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<dependencies>
 		<!-- API  de log ne spécifie que les interface -->
 		<dependency>
