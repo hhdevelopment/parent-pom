@@ -6,10 +6,26 @@
 	<version>1.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>parent-pom</name>
+
 	<properties>
 		<endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
+	<repositories>
+		<repository>
+			<id>release</id>
+			<url>http://dev.hhome.fr:8081/artifactory/libs-release-local</url>
+			<snapshots> 
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>snapshot</id>
+			<url>http://dev.hhome.fr:8081/artifactory/libs-snapshot-local</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<!-- API  de log ne spécifie que les interface -->
 		<dependency>
