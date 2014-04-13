@@ -62,7 +62,7 @@
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
-			<version>6.0</version>
+			<version>7.0</version>
 			<scope>provided</scope><!-- uniqument pour la compile, déjà integrer sur l'environement cible (serveur) -->
 		</dependency>
 		<dependency>
