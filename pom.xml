@@ -12,7 +12,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<repositories>
+	<!--repositories>
 		<repository>
 			<id>release</id>
 			<url>http://dev.hhome.fr:8081/artifactory/libs-release-local</url>
@@ -24,7 +24,7 @@
 			<id>snapshot</id>
 			<url>http://dev.hhome.fr:8081/artifactory/libs-snapshot-local</url>
 		</repository>
-	</repositories>
+	</repositories-->
 
 	<dependencies>
 		<!-- API  de log ne spécifie que les interface -->
