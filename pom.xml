@@ -17,7 +17,7 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<version>1.7.6</version>
-			<scope>compile</scope><!-- compile veut dire compile et runtime -->
+			<scope>compile</scope><!-- compile : les dépendances seront inclut dans le packaging (war, rar, ear) -->
 		</dependency>
 		<!-- API pour les Tests unitaires -->
 		<dependency>
