@@ -3,9 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.hhdev</groupId>
 	<artifactId>parent-pom</artifactId>
-	<version>1.0.3-SNAPSHOT</version>
+	<version>1.0.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>parent-pom</name>
 
 	<properties>
 		<endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -18,7 +17,7 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<version>1.7.6</version>
-			<scope>compile</scope><!-- compile veut dire compile et runtime -->
+			<scope>compile</scope><!-- compile : les dépendances seront inclut dans le packaging (war, rar, ear) -->
 		</dependency>
 		<!-- API pour les Tests unitaires -->
 		<dependency>
